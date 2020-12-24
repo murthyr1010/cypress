@@ -1,0 +1,22 @@
+[
+    {
+        "_comment": "Invalid UserName, Invalid Password",
+        "userName": "blah",
+        "password": "blah"
+    },
+    {
+        "_comment": "Valid UserName, Invalid Password",
+        "userName": "admin",
+        "password": "blah"
+    },
+    {
+        "_comment": "Invalid UserName, valid Password",
+        "userName": "blah",
+        "password": "admin"
+    },
+    {
+        "_comment": "Valid UserName, Invalid Password",
+        "userName": "admin",
+        "password": "ADMIN"
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headtest": "npm run test -- --reporter teamcity",
+    "chrometest": "npm run test -- --browser chrome",
+    "edittests": "npm run test -- --spec \"cypress/integration/MyLogin/*\"",
+    "tctests": "npm run test -- --spec \"cypress/integration/TestSuites/*\" --reporter teamcity"
+  },
+  "author": "rmurthy",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^6.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {}
+}
